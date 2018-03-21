@@ -3,106 +3,206 @@
 body {
 }
 
-#title{
-    height: 100vh;
-    padding-top: 5vh;
-    background: url("../img/bg-2.png") center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-}
+  #title {
+      height: 100vh;
+      padding-top: 5vh;
+      background: url("../img/bg-2.png") center;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+  }
 
-.title {
-  position: relative;
-  width: 70%;
-  margin: auto;
-  margin-bottom: 50px;
-}
+  .title {
+    position: relative;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
 
-.title h1 {
+  .title h1 {
+      color: #ffffff;
+      font-size: 6.8em;
+      font-family: "Fjalla One", cursive;
+      text-align: center;
+  }
+
+  .title h2 {
     color: #ffffff;
-    font-size: 6.8em;
-    font-family: "Fjalla One", cursive;
+    font-weight: 200;
+    font-size: 1.75em;
+    font-family: "Source Sans Pro", sans-serif;
     text-align: center;
-}
+    padding: 20px;
+  }
 
-.title h2 {
-  color: #ffffff;
-  font-weight: 200;
-  font-size: 1.75em;
-  font-family: "Source Sans Pro", sans-serif;
-  text-align: center;
-  padding: 20px;
-}
+  .coin-text {
+    width: 80%;
+    display: inline-block;
+    color: #3A3A3A;
+  }
 
-.coin-text {
-  width: 80%;
-  display: inline-block;
-  color: #3A3A3A;
-}
+  .list-inline {
+    text-align: center;
+  }
 
-.list-inline {
-  text-align: center;
-}
+  .list-inline a {
+    color: #ffffff;
+    font-weight: 200;
+    font-size: .7em;
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+  }
 
-.list-inline a {
-  color: #ffffff;
-  font-weight: 200;
-  font-size: .7em;
-  font-family: "Source Sans Pro", sans-serif;
-  text-align: center;
-}
+  .list-inline img {
+    width: 200px;
+  }
 
-.list-inline img {
-  width: 200px;
-}
+  .list-inline h3 {
+    color: #ffffff;
+    font-weight: 100;
+    font-size: .7em;
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: justify;
+  }
 
-.list-inline h3 {
-  color: #ffffff;
-  font-weight: 100;
-  font-size: .7em;
-  font-family: "Source Sans Pro", sans-serif;
-  text-align: justify;
-}
+  a:link {
+      text-decoration: none;
+  }
 
-a:link {
-    text-decoration: none;
-}
+  a:visited {
+      text-decoration: none;
+  }
 
-a:visited {
-    text-decoration: none;
-}
+  a:hover {
+      text-decoration: none;
+  }
 
-a:hover {
-    text-decoration: none;
-}
+  a:active {
+      text-decoration: none;
+  }
 
-a:active {
-    text-decoration: none;
-}
+  .footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+  }
 
-.footer{
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  text-align: center;
-  padding-bottom: 10px;
-}
+  .footer h3 {
+    font-size:1em;
+    color: #ffffff;
+    margin: 0;
+  }
 
-.footer h3 {
-  font-size:1em;
-  color: #ffffff;
-  margin: 0;
-}
+  ul#nav li{
+    list-style: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: inline-block;
+  }
 
-ul#nav li{
-  list-style: none;
-  padding-left: 25px;
-  padding-right: 25px;
-  display: inline-block;
+/*NARROW CSS*/
+
+@media only screen and (max-width: 500px)  {
+  #title {
+      padding-top: 5vh;
+  }
+
+  .title {
+    position: relative;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .title h1 {
+      color: #ffffff;
+      font-size: 6.8em;
+      font-family: "Fjalla One", cursive;
+      text-align: center;
+  }
+
+  .title h2 {
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 1.75em;
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .coin-text {
+    width: 80%;
+    display: inline-block;
+    color: #3A3A3A;
+  }
+
+  .list-inline {
+    text-align: center;
+  }
+
+  .list-inline a {
+    color: #ffffff;
+    font-weight: 200;
+    font-size: .7em;
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+  }
+
+  .list-inline img {
+    width: 200px;
+  }
+
+  .list-inline h3 {
+    color: #ffffff;
+    font-weight: 100;
+    font-size: .7em;
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: justify;
+  }
+
+  a:link {
+      text-decoration: none;
+  }
+
+  a:visited {
+      text-decoration: none;
+  }
+
+  a:hover {
+      text-decoration: none;
+  }
+
+  a:active {
+      text-decoration: none;
+  }
+
+  .footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .footer h3 {
+    font-size:1em;
+    color: #ffffff;
+    margin: 0;
+  }
+
+  ul#nav li{
+    list-style: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: inline-block;
+  }
 }
 
 /* Add animation (fade in the popup) */
