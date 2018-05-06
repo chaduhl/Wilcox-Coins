@@ -55,7 +55,9 @@ body {
   }
 
   .list-inline img {
-    width: 200px;
+    height: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .list-inline h3 {
